@@ -1,0 +1,32 @@
+# Virtual environment
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# PyTest
+.pytest_cache/
+
+# Test outputs
+screenshots/
+reports/
+logs/
+
+# Personal test data
+data/test_data.csv
+
+# IDE settings
+.vscode/
+
+# Environment files
+.env
+
+---
+
+## Step 15 — Important: check `.gitignore`
+
+Make sure this line exists:
+
+```gitignore
+test_data.csv
